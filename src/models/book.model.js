@@ -43,8 +43,8 @@ const bookSchema = new Schema(
 			required: true,
 		},
 		uploadedBy: {
-			type: Schema.Types.ObjectId, // Assuming each book is uploaded by a user
-			ref: "User", // Reference to the User model
+			type: Schema.Types.ObjectId, 
+			ref: "User",
 			required: true,
 		},
 	},
